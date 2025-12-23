@@ -3,7 +3,7 @@ pipeline {
 
     /*
      * PARAMETERS
-     * PRODUCT   → Target application
+     * PRODUCT   → Target application   Akash Subhransh
      * UPLOAD_ZIP → ZIP/DLL file uploaded from local system
      */
     parameters {
@@ -21,7 +21,7 @@ pipeline {
     }
 
     /*
-     * PATH CONFIGURATION
+     * PATH CONFIGURATION Akash Subhransh
      */
     environment {
         LOCAL_BASE  = 'D:\\TravelApp\\Cookies'
@@ -31,7 +31,7 @@ pipeline {
     stages {
 
         /*
-         * Resolve server IP and credential ID
+         * Resolve server IP and credential ID Akash Subhransh
          */
         stage('Resolve Server') {
             steps {
@@ -52,7 +52,7 @@ pipeline {
         }
 
         /*
-         * Prepare Uploaded ZIP File
+         * Prepare Uploaded ZIP File Akash Subhransh
          */
         stage('Store File Locally') {
             steps {
